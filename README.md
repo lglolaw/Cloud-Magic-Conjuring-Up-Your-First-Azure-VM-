@@ -2,7 +2,7 @@
 <p align="center">
 
   
-     ![image](https://github.com/user-attachments/assets/0cb487d0-d45a-4c26-bf9f-925cd55015ac)
+   ![image](https://github.com/user-attachments/assets/0cb487d0-d45a-4c26-bf9f-925cd55015ac)
 
 
   This project will guide you through creating a Windows or Linux virtual machine in Microsoft Azure. You'll learn how to set up, configure, and connect to a VM in the cloud.
