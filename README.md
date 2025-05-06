@@ -1,56 +1,97 @@
 # Cloud-Magic-Conjuring-Up-Your-First-Azure-VM-
 <p align="center">
-<img src="[https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo](https://miro.medium.com/v2/resize:fit:630/1*qGfaCP6eUC9qf0h2cMO1ag.png)"/>
+
+  
+     ![image](https://github.com/user-attachments/assets/0cb487d0-d45a-4c26-bf9f-925cd55015ac)
+
+
+  This project will guide you through creating a Windows or Linux virtual machine in Microsoft Azure. You'll learn how to set up, configure, and connect to a VM in the cloud.
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>VM - Prerequisites</h1>
 
+-An Azure account (free trial available)
 
-<h2>Video Demonstration</h2>
+-Basic understanding of cloud computing concepts
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+-Web browser (Chrome, Edge, or Firefox recommended).<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- *Ubuntu Server 20.04/22.04 LTS* (free, beginner-friendly)
+  
+-  Windows Server 2022 Datacenter (free for Azure trial)
 
-<h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+<h2> Step by Step Guide</h2>
+1. Create or Sign In
 
-<h2>Installation Steps</h2>
+Go to portal.azure.com
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+     ![image](https://github.com/user-attachments/assets/87277375-ce1a-4e69-a6e8-d0b2f92a9c83)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+Log in with your account
+
+
+    ![image](https://github.com/user-attachments/assets/f1ef591b-90b3-404f-9c65-f464c577e7d9)
+
+
+
+2. Create VM
+
+     ![image](https://github.com/user-attachments/assets/819d7f71-1629-4c36-8ca9-3444afde471e)
+
+
+Click "Create a resource" > "Virtual Machine"
+
+4. Basic Setup
+Choose resource group (or create new)
+
+Name your VM (e.g., "MyTestVM")
+
+Select region near you
+
+Choose OS (Windows/Linux)
+
+Pick size (B1s for testing)
+
+4. Admin Account
+Set username (e.g., "azureuser")
+
+Create password
+
+5. Networking
+Allow RDP (Windows) or SSH (Linux)
+
+
+
+   ![image](https://github.com/user-attachments/assets/9297ed87-4bf3-49e8-9246-17088d05a691)
+
+
+Keep other defaults
+
+6. Review & Create
+Click "Review + create"
+
+Wait ~5 minutes for deployment
+
+   ![image](https://github.com/user-attachments/assets/a4e28e6f-4ee7-45a2-a2a2-37af01870eec)
+
+
+7. Connect
+Windows: Download RDP file
+
+Linux: Use SSH command
+
+8. Clean Up
+Delete resource group when done
+
+💡 Tip: Always delete VMs when not using to avoid charges!
+
+
